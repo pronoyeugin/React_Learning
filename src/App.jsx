@@ -5,15 +5,23 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const studentName = "Pronoy Eugin";
+  const courseName = "React Learning";
+  const classNo = "Class-02: JSX and JS Expression";
+  const date = new Date();
+  const dateName = date.getDate();
+  const monthName = date.getMonth();
+  const currentYear = date.getFullYear();
 
   return (
     <>
-      <section id="center">
-        <h1>Hello React 1st Class</h1>
-      </section>
+      <div>
+        <h1>{studentName}</h1>
+        <h3>{courseName}</h3>
+        <p>{classNo}</p>
+        <p>{dateName + "/" + monthName + "/" + currentYear}</p>
+      </div>
 
-      
     </>
   )
 }
