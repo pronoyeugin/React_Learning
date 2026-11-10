@@ -13,11 +13,25 @@
   //     padding: "15px"
   //   }
 
-  function Card() {
+  //array Destructuring
+  const name = ["dog", "cat"];
+  name =[0];
+  name =[1];
+
+  const [dog, cat] = name 
+  // const dog = name[0];
+  // const cat = name [1];
+
+
+
+  function Card(props) {
+    //props Destructuring
+    const {titleText, descText} = props;
+
     return (
       <div className="card">
-        <h3 className="cartdTitle">{courseName}</h3>
-        <p className="cardDesc">{classNo}</p>
+        <h3 className="cartdTitle">{titleText}</h3>
+        <p className="cardDesc">{descText}</p>
         <p className="cardFooter">{dateName + "/" + monthName + "/" + currentYear}</p>
       </div>
     )
