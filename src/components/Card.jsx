@@ -1,5 +1,5 @@
-  const courseName = "React Learning";
-  const classNo = "Class-02: JSX and JS Expression";
+  // const courseName = "React Learning";
+  // const classNo = "Class-02: JSX and JS Expression";
   const date = new Date();
   const dateName = date.getDate();
   const monthName = date.getMonth();
@@ -14,11 +14,11 @@
   //   }
 
   //array Destructuring
-  const name = ["dog", "cat"];
-  name =[0];
-  name =[1];
+  // const name = ["dog", "cat"];
+  // name =[0];
+  // name =[1];
 
-  const [dog, cat] = name 
+  // const [dog, cat] = name 
   // const dog = name[0];
   // const cat = name [1];
 
