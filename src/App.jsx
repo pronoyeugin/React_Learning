@@ -2,11 +2,12 @@ import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import './App.css'
-import  './Style.css'
+// import './App.css'
+// import  './Style.css'
+
 
 function App() {
-  const studentName = "Pronoy Eugin Khalko";
+  const studentName = "Pronoy Eugin";
   const courseName = "React Learning";
   const classNo = "Class-02: JSX and JS Expression";
   const date = new Date();
@@ -25,11 +26,13 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="headingStyle">{studentName}</h1>
-        {/* <h1 style ={headingStyle}>{studentName}</h1> */}
-        <h3>{courseName}</h3>
-        <p>{classNo}</p>
-        <p>{dateName + "/" + monthName + "/" + currentYear}</p>
+          <h1 className="headingStyle">{studentName}</h1>
+          {/* <h1 style ={headingStyle}>{studentName}</h1> */}
+          <div className="card"> 
+            <h3 className="cartdTitle" >{courseName}</h3>
+            <p className="cardDesc">{classNo}</p>
+            <p className="cardFooter">{dateName + "/" + monthName + "/" + currentYear}</p>
+          </div>
       </div>
 
     </>
