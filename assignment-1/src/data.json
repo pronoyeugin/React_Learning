@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone",
+    "price": 699,
+    "rating": 4.5,
+    "desc": "High quality display and camera performance.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 2,
+    "title": "Wireless Headphones",
+    "price": 199,
+    "rating": 4.8,
+    "desc": "Noise canceling sound with long battery life.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 3,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 4,
+    "title": "Smart Watch",
+    "price": 200,
+    "rating": 4.5,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 5,
+    "title": "Smart Watch",
+    "price": 139,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 6,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 7,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 8,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 9,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 10,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 10,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 11,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 12,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 11,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 12,
+    "title": "Smart Watch",
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Track your fitness, heart rate and daily steps.",
+    "image": "https://via.placeholder.com/200"
+  }
+]
