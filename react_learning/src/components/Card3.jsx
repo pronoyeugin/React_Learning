@@ -304,135 +304,135 @@ cmmb
 |--------------------------------------------------
 | $1
 |--------------------------------------------------
-*/
 
-desc
-describe('$1', () => {
-  $2
-})
 
-test
-test('should $1', () => {
-  $2
-})
+    desc
+    describe('$1', () => {
+    $2
+    })
 
-tit
-it('should $1', () => {
-  $2
-})
+    test
+    test('should $1', () => {
+    $2
+    })
 
-stest
-import React from 'react'
-import renderer from 'react-test-renderer'
+    tit
+    it('should $1', () => {
+    $2
+    })
 
-import { ${1:ComponentName} } from '../${1:ComponentName}'
+    stest
+    import React from 'react'
+    import renderer from 'react-test-renderer'
 
-describe('<${1:ComponentName} />', () => {
-  const defaultProps = {}
-  const wrapper = renderer.create(<${1:ComponentName} {...defaultProps} />)
+    import { ${1:ComponentName} } from '../${1:ComponentName}'
 
-  test('render', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
-})
+    describe('<${1:ComponentName} />', () => {
+    const defaultProps = {}
+    const wrapper = renderer.create(<${1:ComponentName} {...defaultProps} />)
 
-srtest
-import React from 'react'
-import renderer from 'react-test-renderer'
-import { Provider } from 'react-redux'
+    test('render', () => {
+        expect(wrapper).toMatchSnapshot()
+    })
+    })
 
-import store from 'src/store'
-import { ${1:ComponentName} } from '../${1:ComponentName}'
+    srtest
+    import React from 'react'
+    import renderer from 'react-test-renderer'
+    import { Provider } from 'react-redux'
 
-describe('<${1:ComponentName} />', () => {
-  const defaultProps = {}
-  const wrapper = renderer.create(
-    <Provider store={store}>
-      <${1:${TM_FILENAME_BASE}} {...defaultProps} />)
-    </Provider>,
-  )
+    import store from 'src/store'
+    import { ${1:ComponentName} } from '../${1:ComponentName}'
 
-  test('render', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
-})
+    describe('<${1:ComponentName} />', () => {
+    const defaultProps = {}
+    const wrapper = renderer.create(
+        <Provider store={store}>
+        <${1:${TM_FILENAME_BASE}} {...defaultProps} />)
+        </Provider>,
+    )
 
-sntest
-import 'react-native'
-import React from 'react'
-import renderer from 'react-test-renderer'
+    test('render', () => {
+        expect(wrapper).toMatchSnapshot()
+    })
+    })
 
-import ${1:ComponentName} from '../${1:ComponentName}'
+    sntest
+    import 'react-native'
+    import React from 'react'
+    import renderer from 'react-test-renderer'
 
-describe('<${1:ComponentName} />', () => {
-  const defaultProps = {
+    import ${1:ComponentName} from '../${1:ComponentName}'
 
-  }
+    describe('<${1:ComponentName} />', () => {
+    const defaultProps = {
 
-  const wrapper = renderer.create(<${1:ComponentName} {...defaultProps} />)
+    }
 
-  test('render', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
-})
+    const wrapper = renderer.create(<${1:ComponentName} {...defaultProps} />)
 
-snrtest
-import 'react-native'
-import React from 'react'
-import renderer from 'react-test-renderer'
-import { Provider } from 'react-redux'
+    test('render', () => {
+        expect(wrapper).toMatchSnapshot()
+    })
+    })
 
-import store from 'src/store/configureStore'
-import ${1:ComponentName} from '../${1:ComponentName}'
+    snrtest
+    import 'react-native'
+    import React from 'react'
+    import renderer from 'react-test-renderer'
+    import { Provider } from 'react-redux'
 
-describe('<${1:ComponentName} />', () => {
-  const defaultProps = {}
-  const wrapper = renderer.create(
-    <Provider store={store}>
-      <${1:ComponentName} {...defaultProps} />
-    </Provider>,
-  )
+    import store from 'src/store/configureStore'
+    import ${1:ComponentName} from '../${1:ComponentName}'
 
-  test('render', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
-})
+    describe('<${1:ComponentName} />', () => {
+    const defaultProps = {}
+    const wrapper = renderer.create(
+        <Provider store={store}>
+        <${1:ComponentName} {...defaultProps} />
+        </Provider>,
+    )
 
-hocredux
-import React from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
+    test('render', () => {
+        expect(wrapper).toMatchSnapshot()
+    })
+    })
 
-export const mapStateToProps = state => ({
+    hocredux
+    import React from 'react'
+    import PropTypes from 'prop-types'
+    import { connect } from 'react-redux'
 
-})
+    export const mapStateToProps = state => ({
 
-export const mapDispatchToProps = {
+    })
+
+    export const mapDispatchToProps = {
 
 }
 
-export const ${1:hocComponentName} = (WrappedComponent) => {
-  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+    export const ${1:hocComponentName} = (WrappedComponent) => {
+    const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
 
-  hocComponent.propTypes = {
-  }
+    hocComponent.propTypes = {
+    }
 
-  return hocComponent
-}
+    return hocComponent
+    }
 
-export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent))
+    export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent))
 
-hoc
-import React from 'react'
-import PropTypes from 'prop-types'
+    hoc
+    import React from 'react'
+    import PropTypes from 'prop-types'
 
-export default WrappedComponent => {
-  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+    export default WrappedComponent => {
+    const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
 
-  hocComponent.propTypes = {}
+    hocComponent.propTypes = {}
 
-  return hocComponent
-}
+    return hocComponent
+    }
 
 
 

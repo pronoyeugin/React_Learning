@@ -7,6 +7,9 @@ import './App.css';
 import Card1 from './components/Card1';
 import Card2 from './components/Card2';
 import { HiH1 } from 'react-icons/hi2';
+import { FaLinkedin, } from "react-icons/fa";
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillAccountBook } from 'react-icons/ai'
+
 
 //Functional component start with capital letters
 
@@ -52,6 +55,14 @@ function App() {
       <Todo1 />
       
       <Todo2 />
+
+        <span>
+            <AiFillLinkedin className=""/>
+            <AiFillGithub />
+            <AiFillFacebook />
+            <AiFillInstagram />
+            <AiFillAccountBook />
+        </span>
 
       {/* <div>
         <Card1 name="Card-1" desc="This is Card 1" />
