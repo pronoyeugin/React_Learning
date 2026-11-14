@@ -8,7 +8,9 @@ import Card1 from './components/Card1';
 import Card2 from './components/Card2';
 import { HiH1 } from 'react-icons/hi2';
 import { FaLinkedin, } from "react-icons/fa";
-import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillAccountBook } from 'react-icons/ai'
+import {  AiFillLinkedin, AiFillInstagram, AiFillGithub, AiFillAccountBook, AiFillFacebook } from 'react-icons/ai'
+import ReactBootstrap from './components/ReactBootstrap';
+
 
 
 //Functional component start with capital letters
@@ -63,6 +65,9 @@ function App() {
             <AiFillInstagram />
             <AiFillAccountBook />
         </span>
+
+
+        <ReactBootstrap />
 
       {/* <div>
         <Card1 name="Card-1" desc="This is Card 1" />
