@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 function ReactBootstrap() {
   return (
+
     <Card style={{ text: 'center', width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Bootstrap Example</Card.Title>
         <Card.Text>
