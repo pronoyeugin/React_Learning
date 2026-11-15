@@ -16,6 +16,7 @@ import {
 } from 'react-icons/ai';
 import ReactBootstrap from './components/ReactBootstrap';
 import State from './components/State';
+import Index from './ConditionalReadaring/index';
 
 //Functional component start with capital letters
 
@@ -84,9 +85,14 @@ function App() {
       </div>
 
       <div className="component-section">
-       
         <State />
       </div>
+
+      <div className="component-section">
+        <Index />
+      </div>
+
+
     </>
   );
 }
