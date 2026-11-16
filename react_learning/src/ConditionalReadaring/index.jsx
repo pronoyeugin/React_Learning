@@ -49,8 +49,17 @@ import LoginPage from './LoginPage';
     //   <div>{element}</div>
     // )
 
-     return (
-      <div>{isLogedIn ? <HomePage /> : <LoginPage />}</div>
+    //  return (
+    //   <div>{isLogedIn ? <HomePage /> : <LoginPage />}</div>
+    // )
+
+    return (
+    <>  
+         {/* Short-Circuit Operator (&&) */}
+        <h5>Conditional Rendering Example </h5>
+        <div>{isLogedIn && <HomePage />}</div>
+        
+    </>
     )
 
   }

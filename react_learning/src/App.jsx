@@ -16,7 +16,8 @@ import {
 } from 'react-icons/ai';
 import ReactBootstrap from './components/ReactBootstrap';
 import State from './components/State';
-import Index from './ConditionalReadaring/index';
+import ConditionalReadaring from './ConditionalReadaring/index';
+import EventHandlerClass from './EventHandler/index'
 
 //Functional component start with capital letters
 
@@ -67,10 +68,12 @@ function App() {
       </div>
 
       <div className="component-section">
+        <h5>React Components Example </h5>
         <Todo2 />
       </div>
 
       <div className="component-section">
+        <h5>React Icon Example </h5>
         <span>
           <AiFillLinkedin className="" />
           <AiFillGithub />
@@ -89,7 +92,11 @@ function App() {
       </div>
 
       <div className="component-section">
-        <Index />
+        <ConditionalReadaring />
+      </div>
+
+      <div className="component-section">
+        <EventHandlerClass />
       </div>
 
 
