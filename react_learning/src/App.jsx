@@ -22,6 +22,7 @@ import EventBinding from './EventBinding/index';
 import HooksUseState from './HooksUseState/index';
 import HooksUseState2 from './HooksUseState/index2';
 import HooksUseState3 from './HooksUseState/index3';
+import Event_Bubbling from './HooksUseState/index4';
 
 //Functional component start with capital letters
 
@@ -114,6 +115,10 @@ function App() {
 
       <div className="component-section">
           <HooksUseState3 />
+      </div>
+
+      <div className="component-section">
+        <Event_Bubbling />
       </div>
 
 

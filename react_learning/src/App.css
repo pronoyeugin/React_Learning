@@ -199,3 +199,8 @@
 .component-section:last-child {
   border-bottom: none;
 }
+
+.parent{
+   background-color: beige;
+
+}
