@@ -21,6 +21,7 @@ import EventHandlerClass from './EventHandler/index';
 import EventBinding from './EventBinding/index';
 import HooksUseState from './HooksUseState/index';
 import HooksUseState2 from './HooksUseState/index2';
+import HooksUseState3 from './HooksUseState/index3';
 
 //Functional component start with capital letters
 
@@ -112,7 +113,7 @@ function App() {
       </div>
 
       <div className="component-section">
-          
+          <HooksUseState3 />
       </div>
 
 
