@@ -17,8 +17,10 @@ import {
 import ReactBootstrap from './components/ReactBootstrap';
 import State from './components/State';
 import ConditionalReadaring from './ConditionalReadaring/index';
-import EventHandlerClass from './EventHandler/index'
-import EventBinding from './EventBinding';
+import EventHandlerClass from './EventHandler/index';
+import EventBinding from './EventBinding/index';
+import HooksUseState from './HooksUseState/index';
+import HooksUseState2 from './HooksUseState/index2';
 
 //Functional component start with capital letters
 
@@ -103,6 +105,16 @@ function App() {
       <div className="component-section">
           <EventBinding />
       </div>
+
+      <div className="component-section">
+          <HooksUseState />
+          <HooksUseState2 />
+      </div>
+
+      <div className="component-section">
+          
+      </div>
+
 
 
     </>
