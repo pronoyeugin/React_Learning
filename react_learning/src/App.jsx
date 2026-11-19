@@ -23,7 +23,8 @@ import HooksUseState from './HooksUseState/index';
 import HooksUseState2 from './HooksUseState/index2';
 import HooksUseState3 from './HooksUseState/index3';
 import Event_Bubbling from './HooksUseState/index4';
-import CounterApp from './Assignment_02/index'; 
+import CounterApp from './Assignment_02/index';
+import Form from './Form/Form';
 
 //Functional component start with capital letters
 
@@ -106,16 +107,16 @@ function App() {
       </div>
 
       <div className="component-section">
-          <EventBinding />
+        <EventBinding />
       </div>
 
       <div className="component-section">
-          <HooksUseState />
-          <HooksUseState2 />
+        <HooksUseState />
+        <HooksUseState2 />
       </div>
 
       <div className="component-section">
-          <HooksUseState3 />
+        <HooksUseState3 />
       </div>
 
       <div className="component-section">
@@ -127,10 +128,8 @@ function App() {
       </div>
 
       <div className="component-section">
-        
+        <Form />
       </div>
-
-
     </>
   );
 }
