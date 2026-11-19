@@ -25,6 +25,7 @@ import HooksUseState3 from './HooksUseState/index3';
 import Event_Bubbling from './HooksUseState/index4';
 import CounterApp from './Assignment_02/index';
 import Form from './Form/Form';
+import Form2 from './Form/Form2';
 
 //Functional component start with capital letters
 
@@ -129,6 +130,10 @@ function App() {
 
       <div className="component-section">
         <Form />
+      </div>
+
+      <div className="component-section">
+        <Form2 />
       </div>
     </>
   );
