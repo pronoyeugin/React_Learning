@@ -26,6 +26,7 @@ import Event_Bubbling from './HooksUseState/index4';
 import CounterApp from './Assignment_02/index';
 import Form from './Form/Form';
 import Form2 from './Form/Form2';
+import Child from './State_Lifting/Child';
 
 //Functional component start with capital letters
 
@@ -60,6 +61,12 @@ function Todo2() {
 }
 
 function App() {
+
+  const data = "I am from Parent (App)";
+  const handleChildData = (childData) => {
+    console.log("App : " + childData);
+  };
+
   return (
     <>
       <div className="component-section">
@@ -134,6 +141,10 @@ function App() {
 
       <div className="component-section">
         <Form2 />
+      </div>
+
+      <div className="component-section">
+        <Child data={data} onChildData={handleChildData} />
       </div>
     </>
   );
