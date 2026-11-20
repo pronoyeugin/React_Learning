@@ -27,6 +27,9 @@ import CounterApp from './Assignment_02/index';
 import Form from './Form/Form';
 import Form2 from './Form/Form2';
 import Child from './State_Lifting/Child';
+import Todo from './State_Lifting/Todo';
+import NewTodo from './State_Lifting/NewTodo';
+
 
 //Functional component start with capital letters
 
@@ -60,12 +63,18 @@ function Todo2() {
   );
 }
 
+
+
 function App() {
 
   const data = "I am from Parent (App)";
   const handleChildData = (childData) => {
     console.log("App : " + childData);
   };
+
+  const handleNewTodo = (newTodo) => {
+      console.log(newTodo);
+  }
 
   return (
     <>
@@ -146,6 +155,13 @@ function App() {
       <div className="component-section">
         <Child data={data} onChildData={handleChildData} />
       </div>
+
+      <div className="component-section">
+          <NewTodo onhandleNewTodo ={handleNewTodo} />
+          <Todo title = "Learn react.js" />
+      </div>
+
+
     </>
   );
 }
