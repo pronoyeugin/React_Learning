@@ -29,6 +29,7 @@ import Form2 from './Form/Form2';
 import Child from './State_Lifting/Child';
 import Todo from './State_Lifting/Todo';
 import NewTodo from './State_Lifting/NewTodo';
+import StateLiftingTodoApp from './State_Lifting_Todo_App/Home';
 
 
 //Functional component start with capital letters
@@ -161,6 +162,13 @@ function App() {
           <Todo title = "Learn react.js" />
       </div>
 
+      <div className="component-section">
+
+      </div>
+
+      <div className="component-section">
+        <StateLiftingTodoApp />
+      </div>
 
     </>
   );
