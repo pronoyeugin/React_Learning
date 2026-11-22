@@ -30,6 +30,7 @@ import Child from './State_Lifting/Child';
 import Todo from './State_Lifting/Todo';
 import NewTodo from './State_Lifting/NewTodo';
 import StateLiftingTodoApp from './State_Lifting_Todo_App/Home';
+import CompleteTodoApp from './CompleteTodoApp/Home';
 
 
 //Functional component start with capital letters
@@ -168,6 +169,10 @@ function App() {
 
       <div className="component-section">
         <StateLiftingTodoApp />
+      </div>
+
+      <div className="component-section">
+          <CompleteTodoApp />
       </div>
 
     </>
