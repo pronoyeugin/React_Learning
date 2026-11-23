@@ -33,6 +33,7 @@ import StateLiftingTodoApp from './State_Lifting_Todo_App/Home';
 import CompleteTodoApp from './CompleteTodoApp/Home';
 import SignUp from './FormValidation/SignUp';
 import Toggle from './Toggle/ToggleDemo';
+import Faq from './Faq/Faqs';
 
 //Functional component start with capital letters
 
@@ -179,7 +180,9 @@ function App() {
           <Toggle />
       </div>
 
-      <div className="component-section"></div>
+      <div className="component-section">
+        <Faq />
+      </div>
 
       <div className="component-section"></div>
 
