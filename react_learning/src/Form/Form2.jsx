@@ -3,12 +3,11 @@ import Button from 'react-bootstrap/Button';
 import Style from './form.module.css';
 
 function Form2() {
+  const [user, setUser] = useState({ name: '', email: '', password: '' });
+  const { name, email, password } = user;
 
-  const [user, setUser] = useState({name:'', email:'', password:''  });
-  const {name, email, password} = user
-
-  const handleChange =(e) => {
-     setUser({ ...user, [e.target.name]: e.target.value });
+  const handleChange = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {

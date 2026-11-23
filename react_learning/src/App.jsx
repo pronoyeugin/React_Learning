@@ -33,7 +33,6 @@ import StateLiftingTodoApp from './State_Lifting_Todo_App/Home';
 import CompleteTodoApp from './CompleteTodoApp/Home';
 import SignUp from './FormValidation/SignUp';
 
-
 //Functional component start with capital letters
 
 function Welcome2() {
@@ -66,18 +65,15 @@ function Todo2() {
   );
 }
 
-
-
 function App() {
-
-  const data = "I am from Parent (App)";
+  const data = 'I am from Parent (App)';
   const handleChildData = (childData) => {
-    console.log("App : " + childData);
+    console.log('App : ' + childData);
   };
 
   const handleNewTodo = (newTodo) => {
-      console.log(newTodo);
-  }
+    console.log(newTodo);
+  };
 
   return (
     <>
@@ -160,44 +156,31 @@ function App() {
       </div>
 
       <div className="component-section">
-          <NewTodo onhandleNewTodo ={handleNewTodo} />
-          <Todo title = "Learn react.js" />
+        <NewTodo onhandleNewTodo={handleNewTodo} />
+        <Todo title="Learn react.js" />
       </div>
 
-      <div className="component-section">
-
-      </div>
+      <div className="component-section"></div>
 
       <div className="component-section">
         <StateLiftingTodoApp />
       </div>
 
       <div className="component-section">
-          <CompleteTodoApp />
+        <CompleteTodoApp />
       </div>
 
       <div className="component-section">
-          <SignUp />
-      </div>
-      
-      <div className="component-section">
-        
+        <SignUp />
       </div>
 
-      <div className="component-section">
-        
-      </div>
+      <div className="component-section"></div>
 
-      <div className="component-section">
-        
-      </div>
+      <div className="component-section"></div>
 
-      <div className="component-section">
-        
-      </div>
+      <div className="component-section"></div>
 
-
-
+      <div className="component-section"></div>
     </>
   );
 }

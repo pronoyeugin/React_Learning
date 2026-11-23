@@ -1,75 +1,73 @@
 .container {
-    flex-direction: column;
-    background-color: #444;
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  background-color: #444;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.todos{
-    width: 50%;
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem;
-    border-radius: 0.6rem;
-    overflow: scroll;
-    height: 60vh;
+.todos {
+  width: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  overflow: scroll;
+  height: 60vh;
 }
 
-.todo{
-    background-color: #222;
-    margin: 0.5rem;
-    border-radius: ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
+.todo {
+  background-color: #222;
+  margin: 0.5rem;
+  border-radius:;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
 }
-.todo:hover{
-    background-color: #111;
-
+.todo:hover {
+  background-color: #111;
 }
-.todo p{
-    opacity: 0.6;
+.todo p {
+  opacity: 0.6;
 }
 .btn {
-    border: none;
-    background-color: transparent;
-    color: red;
-    cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
 }
-.form{
-    width: 50%;
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem;
-    border-radius: 0.6rem;
-    margin-bottom: 0.5rem;
+.form {
+  width: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  margin-bottom: 0.5rem;
 }
-.form-field{
-    margin: 1rem 0;
-    display: flex;
+.form-field {
+  margin: 1rem 0;
+  display: flex;
 }
-.form-field label{    
-    flex-basis: 20%;
+.form-field label {
+  flex-basis: 20%;
 }
-.form-field input{
-    flex-basis: 80%;
-    border: none;
-    border-radius: 0.6rem;
-    padding: 0.2rem;
+.form-field input {
+  flex-basis: 80%;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
 }
-.form-field textarea{
-    flex-basis: 80%;
-    resize: none;
-    border: none;
-    border-radius: 0.6rem;
-    padding: 0.2rem;
+.form-field textarea {
+  flex-basis: 80%;
+  resize: none;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
 }
 
-.form button:hover{
-    background-color: orange;
-    color: #fff;
+.form button:hover {
+  background-color: orange;
+  color: #fff;
 }
