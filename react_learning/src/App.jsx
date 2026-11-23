@@ -31,6 +31,7 @@ import Todo from './State_Lifting/Todo';
 import NewTodo from './State_Lifting/NewTodo';
 import StateLiftingTodoApp from './State_Lifting_Todo_App/Home';
 import CompleteTodoApp from './CompleteTodoApp/Home';
+import SignUp from './FormValidation/SignUp';
 
 
 //Functional component start with capital letters
@@ -174,6 +175,28 @@ function App() {
       <div className="component-section">
           <CompleteTodoApp />
       </div>
+
+      <div className="component-section">
+          <SignUp />
+      </div>
+      
+      <div className="component-section">
+        
+      </div>
+
+      <div className="component-section">
+        
+      </div>
+
+      <div className="component-section">
+        
+      </div>
+
+      <div className="component-section">
+        
+      </div>
+
+
 
     </>
   );
