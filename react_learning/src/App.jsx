@@ -35,6 +35,7 @@ import SignUp from './FormValidation/SignUp';
 import Toggle from './Toggle/ToggleDemo';
 import Faq from './Faq/Faqs';
 import Assign3 from './Assignment_03/index';
+import UseEffectExamp from './useEffect/useEffectExamp';
 
 //Functional component start with capital letters
 
@@ -189,7 +190,13 @@ function App() {
           <Assign3 />
       </div>
 
+      <div className="component-section">
+          <UseEffectExamp />
+      </div>
+
       <div className="component-section"></div>
+      <div className="component-section"></div>
+
     </>
   );
 }
