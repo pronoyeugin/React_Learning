@@ -34,6 +34,7 @@ import CompleteTodoApp from './CompleteTodoApp/Home';
 import SignUp from './FormValidation/SignUp';
 import Toggle from './Toggle/ToggleDemo';
 import Faq from './Faq/Faqs';
+import Assign3 from './Assignment_03/index';
 
 //Functional component start with capital letters
 
@@ -184,7 +185,9 @@ function App() {
         <Faq />
       </div>
 
-      <div className="component-section"></div>
+      <div className="component-section">
+          <Assign3 />
+      </div>
 
       <div className="component-section"></div>
     </>

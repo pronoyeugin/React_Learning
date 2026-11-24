@@ -16,11 +16,11 @@ const Faq = ({id, title, desc}) => {
              </button>
         </div>
         
-           {toggle && (
+        {toggle && 
             <div className={Style["faq-body"]}>
                 <p className={Style["faq-desc"]}>{desc}</p>
             </div>
-           )},
+           }
 
     </article>
    </>
