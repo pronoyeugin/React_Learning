@@ -37,7 +37,8 @@ import Faq from './Faq/Faqs';
 import Assign3 from './Assignment_03/index';
 import UseEffectExamp from './useEffect/useEffectExamp';
 import DataFetch from './useEffect/DataFetch';
-import CustomHooks from './CustomHooks/DataFetch'
+import CustomHooks from './CustomHooks/DataFetch';
+import ReactToastify from './ReactToastify/ReactToastify';
 
 //Functional component start with capital letters
 
@@ -203,6 +204,18 @@ function App() {
         <CustomHooks />
       </div>
 
+      <div className="component-section">
+        <ReactToastify />
+      </div>
+
+
+       <div className="component-section"></div>
+
+      <div className="component-section"></div>
+
+      <div className="component-section"></div>
+      <div className="component-section"></div>
+      <div className="component-section"></div>
       <div className="component-section"></div>
 
     </>
