@@ -39,6 +39,7 @@ import UseEffectExamp from './useEffect/useEffectExamp';
 import DataFetch from './useEffect/DataFetch';
 import CustomHooks from './CustomHooks/DataFetch';
 import ReactToastify from './ReactToastify/ReactToastify';
+import Assignment_04 from './Assignment_04/DataFetch';
 
 //Functional component start with capital letters
 
@@ -209,7 +210,9 @@ function App() {
       </div>
 
 
-       <div className="component-section"></div>
+       <div className="component-section">
+          <Assignment_04 />
+       </div>
 
       <div className="component-section"></div>
 

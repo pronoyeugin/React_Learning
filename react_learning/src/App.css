@@ -275,3 +275,84 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+
+
+/* ১. কার্ডগুলোকে সুন্দরভাবে পাশাপাশি বসানোর জন্য কন্টেইনার */
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ২. মূল কার্ডের ডিজাইন */
+.user {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* হোভার করলে কার্ডটি হালকা উপরে উঠবে */
+.user:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* ৩. কার্ডের উপরে থাকা আইডি (ID) */
+.user > h3:first-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  padding: 6px 16px;
+  border-bottom-left-radius: 12px;
+  font-weight: 500;
+}
+
+/* ৪. ইউজারের নাম */
+.user__name {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin: 15px 0 8px 0;
+  font-weight: 700;
+}
+
+/* ৫. ইউজারের ইমেইল */
+.user__email {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin: 0 0 15px 0;
+  word-break: break-all;
+}
+
+/* ৬. ফোন নাম্বারের লিংক */
+.user__phone {
+  display: inline-block;
+  margin-top: auto; /* বাটনকে কার্ডের একদম নিচে নিয়ে যাবে */
+  color: #2980b9;
+  background-color: #eaf2f8;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.user__phone:hover {
+  background-color: #d4e6f1;
+}
