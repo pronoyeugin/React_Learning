@@ -40,7 +40,7 @@ import DataFetch from './useEffect/DataFetch';
 import CustomHooks from './CustomHooks/DataFetch';
 import ReactToastify from './ReactToastify/ReactToastify';
 import Assignment_04 from './Assignment_04/DataFetch';
-
+import CountryApp from './CountryApp/index';
 //Functional component start with capital letters
 
 function Welcome2() {
@@ -214,7 +214,9 @@ function App() {
           <Assignment_04 />
        </div>
 
-      <div className="component-section"></div>
+      <div className="component-section">
+          <CountryApp />
+      </div>
 
       <div className="component-section"></div>
       <div className="component-section"></div>
