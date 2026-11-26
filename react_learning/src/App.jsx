@@ -41,7 +41,7 @@ import CustomHooks from './CustomHooks/DataFetch';
 import ReactToastify from './ReactToastify/ReactToastify';
 import Assignment_04 from './Assignment_04/DataFetch';
 import CountryApp from './CountryApp/index';
-//Functional component start with capital letters
+import Assignment_05 from './Assignment_05/index';
 
 function Welcome2() {
   //simple method
@@ -218,7 +218,9 @@ function App() {
           <CountryApp />
       </div>
 
-      <div className="component-section"></div>
+      <div className="component-section">
+          <Assignment_05 />
+      </div>
       <div className="component-section"></div>
       <div className="component-section"></div>
       <div className="component-section"></div>
