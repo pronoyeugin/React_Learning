@@ -43,6 +43,7 @@ import Assignment_04 from './Assignment_04/DataFetch';
 import CountryApp from './CountryApp/index';
 import Assignment_05 from './Assignment_05/index';
 import DynamicStyle from './DynamicStyling/index';
+import Propstype from './PropsType/Users';
 
 function Welcome2() {
   //simple method
@@ -227,7 +228,9 @@ function App() {
           <DynamicStyle />
       </div>
       
-      <div className="component-section"></div>
+      <div className="component-section">
+        <Propstype />
+      </div>
       <div className="component-section"></div>
 
     </>
