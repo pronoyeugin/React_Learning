@@ -42,6 +42,7 @@ import ReactToastify from './ReactToastify/ReactToastify';
 import Assignment_04 from './Assignment_04/DataFetch';
 import CountryApp from './CountryApp/index';
 import Assignment_05 from './Assignment_05/index';
+import DynamicStyle from './DynamicStyling/index';
 
 function Welcome2() {
   //simple method
@@ -221,7 +222,11 @@ function App() {
       <div className="component-section">
           <Assignment_05 />
       </div>
-      <div className="component-section"></div>
+
+      <div className="component-section">
+          <DynamicStyle />
+      </div>
+      
       <div className="component-section"></div>
       <div className="component-section"></div>
 

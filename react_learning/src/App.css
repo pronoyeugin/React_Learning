@@ -507,3 +507,10 @@
   color: #aaa;
   font-weight: 400;
 }
+
+.valid {
+  background-color: #28a745;
+}
+.invalid{
+  background-color: red;
+}
