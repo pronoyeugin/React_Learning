@@ -47,6 +47,7 @@ import Propstype from './PropsType/Users';
 import LifeCycle from './LifeCycle/LifeCycle';
 import UserForm from './RefExample/UserForm';
 import UserForm2 from './UseRefExample/UserForm'
+import UseReducer from './UseReducer/index';
 
 
 
@@ -250,10 +251,14 @@ function App() {
         <UserForm2 />
       </div>
 
+      <div className="component-section">
+        <UseReducer />
+      </div>
 
       <div className="component-section"></div>
+
       <div className="component-section"></div>
-      <div className="component-section"></div>
+
       <div className="component-section"></div>
 
     </>
