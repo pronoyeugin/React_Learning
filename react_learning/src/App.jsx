@@ -44,6 +44,7 @@ import CountryApp from './CountryApp/index';
 import Assignment_05 from './Assignment_05/index';
 import DynamicStyle from './DynamicStyling/index';
 import Propstype from './PropsType/Users';
+import LifeCycle from './LifeCycle/LifeCycle';
 
 function Welcome2() {
   //simple method
@@ -231,6 +232,10 @@ function App() {
       <div className="component-section">
         <Propstype />
       </div>
+      <div className="component-section">
+        <LifeCycle />
+      </div>
+
       <div className="component-section"></div>
 
     </>
