@@ -18,6 +18,7 @@ import React, { Component, createRef } from 'react'
 
     return (
       <>
+        <h5>Ref in a class component with example</h5>
         <form onSubmit={this.handleSubmit}>
             <div>
                 <label htmlFor="userName">UserName: </label>

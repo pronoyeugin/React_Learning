@@ -45,7 +45,7 @@ import React, { Component } from 'react'
 
         return (
         <>
-
+            <h5>Life cycle of a class component</h5>
             <h2>Counter: {this.state.count}</h2>
             <button onClick={this.handleChange}>+</button>
 

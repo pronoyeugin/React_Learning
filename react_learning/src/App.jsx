@@ -46,7 +46,7 @@ import DynamicStyle from './DynamicStyling/index';
 import Propstype from './PropsType/Users';
 import LifeCycle from './LifeCycle/LifeCycle';
 import UserForm from './RefExample/UserForm';
-
+import UserForm2 from './UseRefExample/UserForm'
 
 
 
@@ -246,9 +246,11 @@ function App() {
           <UserForm />
       </div>
 
+      <div className="component-section">
+        <UserForm2 />
+      </div>
 
 
-      <div className="component-section"></div>
       <div className="component-section"></div>
       <div className="component-section"></div>
       <div className="component-section"></div>
