@@ -45,6 +45,12 @@ import Assignment_05 from './Assignment_05/index';
 import DynamicStyle from './DynamicStyling/index';
 import Propstype from './PropsType/Users';
 import LifeCycle from './LifeCycle/LifeCycle';
+import UserForm from './RefExample/UserForm';
+
+
+
+
+
 
 function Welcome2() {
   //simple method
@@ -236,6 +242,16 @@ function App() {
         <LifeCycle />
       </div>
 
+      <div className="component-section">
+          <UserForm />
+      </div>
+
+
+
+      <div className="component-section"></div>
+      <div className="component-section"></div>
+      <div className="component-section"></div>
+      <div className="component-section"></div>
       <div className="component-section"></div>
 
     </>
